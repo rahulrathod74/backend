@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB URI (Replace with your MongoDB URI)
-const MONGODB_URI = 'mongodb://localhost:27017/myDatabase'; // Replace `myDatabase` with your database name
+const MONGODB_URI = 'mongodb+srv://rahul:rahi2816@cluster0.jkpdl.mongodb.net/myntraData'; // Replace `myDatabase` with your database name
 
 // Debugging MongoDB URI
 console.log('MongoDB URI:', MONGODB_URI);
