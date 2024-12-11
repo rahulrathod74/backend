@@ -1,8 +1,8 @@
 bashCopy code
-FROM node:14
+FROM node:16
 WORKDIR /app
 COPY package*.json./
 RUN npm install
-COPY ..
+COPY . .
 EXPOSE 5000
-CMD ["node", "server.js"]
+CMD ["npm", "start"]
